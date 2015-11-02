@@ -1,0 +1,10 @@
+.strapline {
+  display: block;
+  font-family: 'Source Code Pro';
+  font-size: 3vw;
+  line-height: 4.5vw;
+  margin: 0 auto;
+  min-width: 200px;
+  text-align: center;
+  width: 50vw;
+}

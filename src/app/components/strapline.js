@@ -10,20 +10,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var design_container_1 = require('./components/design-container');
-var strapline_1 = require('./components/strapline');
-var BrandingComponent = (function () {
-    function BrandingComponent() {
+var Title = (function () {
+    function Title() {
+        this.title = 'Daily Developer Dashboard';
     }
-    BrandingComponent = __decorate([
+    Title = __decorate([
         angular2_1.Component({
-            directives: [design_container_1.DesignContainer, strapline_1.Title],
-            selector: 'branding',
-            template: "\n    <design-container>Loading...</design-container>\n    <strapline></strapline>\n  "
+            selector: 'strapline',
+            styleUrls: [
+                'https://fonts.googleapis.com/css?family=Source+Code+Pro',
+                'app/styles/strapline.css'
+            ],
+            template: '<p class="strapline">{{title}}</p>'
         }), 
         __metadata('design:paramtypes', [])
-    ], BrandingComponent);
-    return BrandingComponent;
+    ], Title);
+    return Title;
 })();
-angular2_1.bootstrap(BrandingComponent);
-//# sourceMappingURL=app.js.map
+exports.Title = Title;
+//# sourceMappingURL=strapline.js.map
