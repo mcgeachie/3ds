@@ -1,22 +1,23 @@
 {
   "name": "3ds",
-  "version": "1.0.0",
   "description": "A simple tool to explore branding options for Team Snowplough's Daily Developer Dashboard",
-  "scripts": {
-    "start": "live-server --open=src",
-    "watch:typescript": "tsc -p src -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mcgeachie/3ds"
-  },
+  "version": "1.0.0",
   "keywords": [
     "Angular2",
     "TypeScript",
     "Design"
   ],
-  "author": "B McGeachie",
-  "homepage": "https://github.com/mcgeachie/3ds",
+  "engines" : {
+    "node" : "4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcgeachie/3ds"
+  },
+  "scripts": {
+    "start": "live-server --open=src",
+    "watch:typescript": "tsc -p src -w"
+  },
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
     "systemjs": "0.19.2"
@@ -24,5 +25,7 @@
   "devDependencies": {
     "live-server": "^0.8.2",
     "typescript": "^1.6.2"
-  }
+  },
+  "author": "B McGeachie",
+  "homepage": "https://github.com/mcgeachie/3ds"
 }
