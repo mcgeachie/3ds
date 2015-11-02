@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple tool to explore branding options for Team Snowplough's Daily Developer Dashboard",
   "scripts": {
-    "tsc": "tsc -p src -w",
-    "start": "live-server --open=src"
+    "start": "live-server --open=src",
+    "watch:typescript": "tsc -p src -w"
   },
   "repository": {
     "type": "git",
