@@ -1,2 +1,6 @@
 node_modules/
 .DS_Store
+src/app/app.js
+src/app/app.js.map
+src/app/components/*.js
+src/app/components/*.js.map
