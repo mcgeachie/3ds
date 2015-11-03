@@ -1,4 +1,4 @@
 export class Dee {
-  klass: string,
+  position: string,
   color: string
 }
